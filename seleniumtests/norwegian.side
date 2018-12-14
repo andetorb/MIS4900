@@ -1,0 +1,300 @@
+{
+  "id": "4e20e717-366d-4f65-afbf-6e30ed35b08c",
+  "version": "1.1",
+  "name": "norwegian",
+  "url": "https://www.norwegian.com",
+  "tests": [{
+    "id": "592fd97f-6e65-4277-8c9f-cd6ad5ca2eb2",
+    "name": "Untitled",
+    "commands": [{
+      "id": "390888e9-45ed-433c-b2e4-d4ed35a02921",
+      "comment": "",
+      "command": "open",
+      "target": "/uk/invisible-pages/norwegiancom/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b433fbbc-89aa-4ca4-a297-c864804206b1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1855x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "487e748c-8660-4907-822f-84e3ea48c695",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-language__language:nth-child(12) .select-language__market-name",
+      "targets": [
+        ["css=.select-language__language:nth-child(12) .select-language__market-name", "css:finder"],
+        ["xpath=//li[12]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39ff1893-fe5d-4fe8-b1f2-56cba9124385",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vis alle destinasjoner.",
+      "targets": [
+        ["linkText=Vis alle destinasjoner.", "linkText"],
+        ["css=p > a", "css"],
+        ["css=p:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vis alle destinasjoner.')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"gaEventLink(this,'Banner Internal - Homepage', 'header','from-OSL'); return false;\"]", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '/destinasjoner/?d_city=OSL')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08e54d73-d101-45ce-9da2-afdb4b5e9034",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-medium--type-sun-and-sea",
+      "targets": [
+        ["css=.icon-medium--type-sun-and-sea", "css:finder"],
+        ["xpath=//label[5]/span/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2997f0ba-a0e7-4f86-b9be-238d9a638328",
+      "comment": "",
+      "command": "click",
+      "target": "css=.destination-list__item:nth-child(19) .destination-list__title__link--click",
+      "targets": [
+        ["css=.destination-list__item:nth-child(19) .destination-list__title__link--click", "css:finder"],
+        ["xpath=//li[19]/h3/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58149845-0ea1-4715-abd0-ce43175f9590",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rutekart",
+      "targets": [
+        ["linkText=Rutekart", "linkText"],
+        ["css=.list\\\":nth-child(2) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Rutekart')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/rutekart/')])[3]", "xpath:href"],
+        ["xpath=//footer/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7c038a9-ad66-418b-b11b-b30ed9bf4c6e",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=i.range-slider__slide-min__draghandle",
+      "targets": [
+        ["css=i.range-slider__slide-min__draghandle", "css"],
+        ["css=.range-slider__slide-min__draghandle", "css:finder"],
+        ["xpath=//div[@id='slider-min']/i", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/i", "xpath:position"]
+      ],
+      "value": "1.5,11.20001220703125"
+    }, {
+      "id": "2dbc2e00-f933-4f92-b328-a81559cabfc3",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=i.range-slider__slide-min__draghandle",
+      "targets": [
+        ["css=i.range-slider__slide-min__draghandle", "css"],
+        ["css=.range-slider__slide-min__draghandle", "css:finder"],
+        ["xpath=//div[@id='slider-min']/i", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/i", "xpath:position"]
+      ],
+      "value": "1.5,11.20001220703125"
+    }, {
+      "id": "c97172e3-c397-480c-b615-de3684a6857c",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=i.range-slider__slide-min__draghandle",
+      "targets": [
+        ["css=i.range-slider__slide-min__draghandle", "css"],
+        ["css=.range-slider__slide-min__draghandle", "css:finder"],
+        ["xpath=//div[@id='slider-min']/i", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/i", "xpath:position"]
+      ],
+      "value": "1.5,11.20001220703125"
+    }, {
+      "id": "68b008cc-d74c-4350-8c31-7a105ac86d5d",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=i.range-slider__slide-min__draghandle",
+      "targets": [
+        ["css=i.range-slider__slide-min__draghandle", "css"],
+        ["css=.range-slider__slide-min__draghandle", "css:finder"],
+        ["xpath=//div[@id='slider-min']/i", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/i", "xpath:position"]
+      ],
+      "value": "1.5,12.20001220703125"
+    }, {
+      "id": "a4208b35-50e2-41ef-b4c5-e222b0c8f6d8",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=i.range-slider__slide-min__draghandle",
+      "targets": [
+        ["css=i.range-slider__slide-min__draghandle", "css"],
+        ["css=.range-slider__slide-min__draghandle", "css:finder"],
+        ["xpath=//div[@id='slider-min']/i", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/i", "xpath:position"]
+      ],
+      "value": "1.5,12.20001220703125"
+    }, {
+      "id": "7c54a784-37e4-4a74-85a3-49cbfdff7c8d",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=i.range-slider__slide-min__draghandle",
+      "targets": [
+        ["css=i.range-slider__slide-min__draghandle", "css"],
+        ["css=.range-slider__slide-min__draghandle", "css:finder"],
+        ["xpath=//div[@id='slider-min']/i", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/i", "xpath:position"]
+      ],
+      "value": "1.5,12.20001220703125"
+    }, {
+      "id": "7db2c962-b4c6-40a3-b0a7-667990a19902",
+      "comment": "",
+      "command": "click",
+      "target": "css=i.range-slider__slide-min__draghandle",
+      "targets": [
+        ["css=i.range-slider__slide-min__draghandle", "css"],
+        ["css=.range-slider__slide-min__draghandle", "css:finder"],
+        ["xpath=//div[@id='slider-min']/i", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c73e2c30-ee69-42be-80ff-8253cb548608",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=travel_period",
+      "targets": [
+        ["id=travel_period", "id"],
+        ["css=#travel_period", "css"],
+        ["css=#travel_period", "css:finder"],
+        ["xpath=//input[@id='travel_period']", "xpath:attributes"],
+        ["xpath=//div[@id='travelPeriods']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "205,25"
+    }, {
+      "id": "0dcd70fd-2706-4014-8067-58335e6e6ead",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=travel_period",
+      "targets": [
+        ["id=travel_period", "id"],
+        ["css=#travel_period", "css"],
+        ["css=#travel_period", "css:finder"],
+        ["xpath=//input[@id='travel_period']", "xpath:attributes"],
+        ["xpath=//div[@id='travelPeriods']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "205,25"
+    }, {
+      "id": "6458aaea-afec-49d2-9e42-cd99e51200e7",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=travel_period",
+      "targets": [
+        ["id=travel_period", "id"],
+        ["css=#travel_period", "css"],
+        ["css=#travel_period", "css:finder"],
+        ["xpath=//input[@id='travel_period']", "xpath:attributes"],
+        ["xpath=//div[@id='travelPeriods']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "205,25"
+    }, {
+      "id": "c971cad2-a924-417e-a6b1-619523d7bd8e",
+      "comment": "",
+      "command": "click",
+      "target": "id=travel_period",
+      "targets": [
+        ["id=travel_period", "id"],
+        ["css=#travel_period", "css"],
+        ["css=#travel_period", "css:finder"],
+        ["xpath=//input[@id='travel_period']", "xpath:attributes"],
+        ["xpath=//div[@id='travelPeriods']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "182a93f9-055b-4eb5-af5b-c1fbf6d1df10",
+      "comment": "",
+      "command": "click",
+      "target": "css=#travel_period-201901 > a.autosuggest__link > strong.autosuggest__airport",
+      "targets": [
+        ["css=#travel_period-201901 > a.autosuggest__link > strong.autosuggest__airport", "css"],
+        ["css=#travel_period-201901 .autosuggest__airport", "css:finder"],
+        ["xpath=//li[@id='travel_period-201901']/a/strong", "xpath:idRelative"],
+        ["xpath=//li[4]/a/strong", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "506dfe2b-e59c-4d6b-bfa2-3ca3df8befe2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mapboxgl-popup:nth-child(10) .mapboxgl-popup-content-route-price > div > div",
+      "targets": [
+        ["css=.mapboxgl-popup:nth-child(10) .mapboxgl-popup-content-route-price > div > div", "css:finder"],
+        ["xpath=//div[@id='map']/div[10]/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddd15b16-479c-45f6-9841-19d1f08e46bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.map__bubble__lowfare__row:nth-child(1) .lowestprice",
+      "targets": [
+        ["css=.map__bubble__lowfare__row:nth-child(1) .lowestprice", "css:finder"],
+        ["xpath=//div[@id='content-scrollable']/div[2]/div/div/table/tbody/tr/td[6]/button", "xpath:idRelative"],
+        ["xpath=//td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1085dee0-05aa-482f-ae66-4f2fab76dc52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.map__bubble__triptype__switch__label:nth-child(4)",
+      "targets": [
+        ["css=.map__bubble__triptype__switch__label:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='content-scrollable']/div/span/label[2]", "xpath:idRelative"],
+        ["xpath=//span/label[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a861c8e1-c409-4550-b3d3-be7c6a534bda",
+      "comment": "",
+      "command": "click",
+      "target": "css=.map__bubble__lowfare__row:nth-child(3) .lowestprice",
+      "targets": [
+        ["css=.map__bubble__lowfare__row:nth-child(3) .lowestprice", "css:finder"],
+        ["xpath=//div[@id='content-scrollable']/div[2]/div/div/table/tbody/tr[3]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c4a6dab-c3fc-4325-a861-72e0d4db6abb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//div[@id='content-scrollable']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6dc3f0e6-fbbc-4575-9437-5ae10c74f529",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["592fd97f-6e65-4277-8c9f-cd6ad5ca2eb2"]
+  }],
+  "urls": ["https://www.norwegian.com/"],
+  "plugins": []
+}

@@ -1,0 +1,236 @@
+{
+  "id": "1c109e4d-1f73-4c45-b781-41789cc7c159",
+  "version": "1.1",
+  "name": "vg",
+  "url": "https://www.vg.no",
+  "tests": [{
+    "id": "1fbe0198-046b-43f2-847e-c4cd3abb28de",
+    "name": "vg.no",
+    "commands": [{
+      "id": "75c653c0-994c-46bd-89a6-446f3b9aeea0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8bfbc47-5d85-4658-a8ce-aed90d01ca71",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1855x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8d4412a-194d-448c-88c5-de4f891f0840",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=img.article-image",
+      "targets": [
+        ["css=img.article-image", "css"],
+        ["css=#df-86-nf49f126 .article-image", "css:finder"],
+        ["xpath=//img[@title='Foto: VGTV ']", "xpath:img"],
+        ["xpath=//div[@id='df-86-nf49f126']/div/span/span/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07f594e1-d854-4549-9bd3-3e4f839d9186",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,114)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17e0a166-be5d-403c-980e-58c9e7352098",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1116)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac32ff8a-a5f3-42a1-a1bc-f0bfc92cd951",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3220)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dccc42fb-8ffe-4457-9f3f-ba116e7bfb6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#df-86-d070a59f > div.article-content > span.df-img-container > span.df-img-container-inner > a > img.article-image.lazy",
+      "targets": [
+        ["css=#df-86-d070a59f > div.article-content > span.df-img-container > span.df-img-container-inner > a > img.article-image.lazy", "css"],
+        ["css=#df-86-d070a59f .article-image", "css:finder"],
+        ["xpath=//img[@title='Foto: BJØRN SIGURDSØN, NTB SCANPIX']", "xpath:img"],
+        ["xpath=//div[@id='df-86-d070a59f']/div/span/span/a/img", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div[4]/div/span/span/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8de66b8c-ae84-4de7-b40e-ee5a43ad42e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.psi-btn--agree",
+      "targets": [
+        ["css=.psi-btn--agree", "css:finder"],
+        ["xpath=//section[@id='psi']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//section/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23566f94-c161-43a7-91cd-f6ec5ae4308e",
+      "comment": "",
+      "command": "click",
+      "target": "id=adPlacement_4",
+      "targets": [
+        ["id=adPlacement_4", "id"],
+        ["css=#adPlacement_4", "css"],
+        ["css=#adPlacement_4", "css:finder"],
+        ["xpath=//div[@id='adPlacement_4']", "xpath:attributes"],
+        ["xpath=//div[@id='application']/div/div/div[2]/div[3]/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57241649-3777-49c9-9315-c6d3d6288650",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Myhre: - Ble svindlet og dopet",
+      "targets": [
+        ["linkText=Myhre: - Ble svindlet og dopet", "linkText"],
+        ["css=div._1xqaU > a", "css"],
+        ["css=.\\_1xqaU:nth-child(12) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Myhre: - Ble svindlet og dopet')]", "xpath:link"],
+        ["xpath=//main[@id='main']/article/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.vg.no/sport/fotball/i/l60Ky/myhre-ble-svindlet-og-dopet')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0a34d6b-1e82-48b2-acfa-d7a806686a60",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1938)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c595de1-562b-4d11-a600-3c79ecba9128",
+      "comment": "",
+      "command": "click",
+      "target": "css=article._35JqV",
+      "targets": [
+        ["css=article._35JqV", "css"],
+        ["css=.\\_35JqV", "css:finder"],
+        ["xpath=//main[@id='main']/article", "xpath:idRelative"],
+        ["xpath=//article", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d7537e5-4076-4a70-83b7-e35e168606ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["css=#searchInput", "css"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='application']/div/div/header/div/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "858014c9-19d1-4b35-9ea3-1738dd23c458",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["css=#searchInput", "css"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='application']/div/div/header/div/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a1d78bb-ce61-4745-83e5-257d98b64c06",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["css=#searchInput", "css"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='application']/div/div/header/div/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "viking"
+    }, {
+      "id": "b803088d-a3af-4fa0-8178-a341b0ab6b74",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["css=#searchInput", "css"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='application']/div/div/header/div/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7ef7ac98-16fc-43ca-b722-e69c39cec95e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.section-nav-topbar > li:nth-child(5) > a",
+      "targets": [
+        ["css=.section-nav-topbar > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'VG LIVE')]", "xpath:link"],
+        ["xpath=//div[@id='page-footer-desktop']/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://vglive.no/']", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "faec6677-3015-4175-8f76-3e9c882ae5e4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.section-nav-topbar > li:nth-child(5) > a",
+      "targets": [
+        ["css=.section-nav-topbar > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'VG LIVE')]", "xpath:link"],
+        ["xpath=//div[@id='page-footer-desktop']/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://vglive.no/']", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65721351-639b-44e7-a802-cd9cca4afcde",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Viking-eier Bjørn Maaseide: – Klubben er et vepsebol - VG",
+      "targets": [
+        ["linkText=Viking-eier Bjørn Maaseide: – Klubben er et vepsebol - VG", "linkText"],
+        ["css=.gsc-webResult:nth-child(3) .gsc-thumbnail-inside > .gs-title > .gs-title", "css:finder"],
+        ["xpath=//div[@id='___gcse_0']/div/div/div/div[5]/div[2]/div/div/div[2]/div[3]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.google.com/url?q=https://www.vg.no/sport/i/dgo3o/viking-eier-bjoern-maaseide-klubben-er-et-vepsebol&sa=U&ved=0ahUKEwjb0suhvJreAhUOCewKHWZvC64QFggOMAM&client=internal-uds-cse&cx=015634516869086376308:h0t9yz6kn4w&usg=AOvVaw390q-QQVjEl2-YHirE6tyg')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "630b8552-08ec-4209-ba10-f491362e4538",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1fbe0198-046b-43f2-847e-c4cd3abb28de"]
+  }],
+  "urls": ["https://www.vg.no/"],
+  "plugins": []
+}
