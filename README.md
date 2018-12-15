@@ -14,4 +14,4 @@ seleniumtests:
 Tests created through Selenium
 
 generatedataset.sh:
-Script for extracting features using Joy, and then converting them using model.py.
+Script for extracting features using [Joy](https://github.com/cisco/joy/), and then converting them using model.py.
